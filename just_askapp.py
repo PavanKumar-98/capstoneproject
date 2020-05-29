@@ -27,7 +27,7 @@ while True :
     if "exit" in str(user_input) or "bye" in str(user_input)  or "nothing" in str(user_input) or "done" in str(user_input): 
         assistant_speaks("would you like to check out ?")
         user_input_1 = get_audio().lower()
-        #here the assistant asks for coformation of leaving
+        #here the assistant asks for confirmation of leaving. It accepts the phrases "yep", "yeah", "sure" and "yes".
         if "yes" in str(user_input_1) or "yeah" in str(user_input_1) or "yep" in str(user_input_1) or "sure" in str(user_input_1):
             print("\nYour Cart\n")
             for i in cart:

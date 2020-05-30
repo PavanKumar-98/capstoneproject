@@ -1,4 +1,4 @@
-from project import *
+from just_ask import *
 from tabulate import tabulate
 
 
